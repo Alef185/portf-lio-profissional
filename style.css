@@ -993,3 +993,9 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   box-shadow: inset -7px -7px 19px #ffffffc0,
   inset 7px 7px 19px rgba(75, 78, 83, 0.603);
 }
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  outline: none;
+}
