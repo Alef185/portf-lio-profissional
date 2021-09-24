@@ -835,6 +835,9 @@ box-shadow:  -20px -20px 60px #191c1e,
   .glassTop{
     visibility: hidden;
   }
+  .wrapperSkill{
+    visibility: hidden;
+  }
 }
 
 /* mother board */
