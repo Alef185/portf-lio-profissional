@@ -838,6 +838,10 @@ box-shadow:  -20px -20px 60px #191c1e,
   .wrapperSkill{
     visibility: hidden;
   }
+  .spanTitle{
+    font-size: 0.1em;
+    letter-spacing: 1.2px;
+  }
 }
 
 /* mother board */
