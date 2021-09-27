@@ -842,38 +842,13 @@ box-shadow:  -20px -20px 60px #191c1e,
     font-size: 0.1em;
     letter-spacing: 1.2px;
   }
+  .glassBack{
+    visibility: hidden;
+  }
 }
 
 /* mother board */
-.glass{
-  background: rgb(65, 65, 65);
-  left: 56%;
-  top: 180px;
-  position: absolute;
-  width: 500px;
-  max-height: 610px;
-  border-radius: 10px;
-}
-.glass img{
-  max-width: 500px;
-  max-height: 610px;
-}
-.glassTop{
-  content: '';
-  position: absolute;
-  background: rgba( 255, 255, 255, 0.15 );
-box-shadow: 0 8px 32px 0 rgba(48, 49, 53, 0.37);
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 5.5px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-  left: 55%;
-  top: 160px; 
-  width: 540px;
-  height: 650px;
-  border-radius: 10px;
-  z-index: 1;
-}
+
 .fanCircleSpin2{
   position: absolute;
   background: linear-gradient(#fffc48, #b478ff, #4affe2);
@@ -1074,4 +1049,220 @@ neumorphic-card__outer {
               inset -7px -7px 20px rgba(255, 255, 255, 1),
               0px 0px 4px rgba(255, 255, 255, .2) !important; 
   border-radius: 10px;
+}
+.glass{
+  background: rgb(65, 65, 65);
+  left: 56%;
+  top: 180px;
+  position: absolute;
+  width: 500px;
+  max-height: 610px;
+  border-radius: 10px;
+}
+.glass img{
+  max-width: 500px;
+  max-height: 610px;
+}
+.glassTop{
+  content: '';
+  position: absolute;
+  background: rgba( 255, 255, 255, 0.15 );
+box-shadow: 0 8px 32px 0 rgba(48, 49, 53, 0.37);
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 5.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  left: 55%;
+  top: 160px; 
+  width: 540px;
+  height: 650px;
+  border-radius: 10px;
+  z-index: 1;
+}
+.glassBack{
+  border-radius: 10px;
+  background: #222629;
+  box-shadow:  13px 13px 26px #191c1e,
+               -13px -13px 26px #2b3034;
+  width: 750px;
+  height: 700px;
+  position: absolute;
+  top: 135px;
+  left: 54%;
+}
+.ventBack1{
+  position: absolute;
+  width: 160px;
+  height: 30px;
+  border-radius: 20px;
+  background: #222629;
+  box-shadow: inset 8px 8px 16px #141618,
+              inset -8px -8px 16px #30363a;
+  right: 10px;
+  top: 20px;
+}
+.ventBack1::before{
+  content: '';
+  position: absolute;
+  width: 160px;
+  height: 15px;
+  border-radius: 10px;
+  background: #222629;
+  box-shadow: inset 5px 5px 10px #141618,
+              inset -5px -5px 10px #30363a;
+  bottom: -610px;
+}
+.ventBack2{
+  position: absolute;
+  width: 160px;
+  height: 30px;
+  border-radius: 20px;
+  background: #222629;
+  box-shadow: inset 8px 8px 16px #141618,
+              inset -8px -8px 16px #30363a;
+  right: 10px;
+  
+  top: 70px;
+}
+.ventBack2::before{
+  content: '';
+  position: absolute;
+  width: 160px;
+  height: 15px;
+  border-radius: 10px;
+  background: #222629;
+  box-shadow: inset 5px 5px 10px #141618,
+              inset -5px -5px 10px #30363a;
+  bottom: -520px;
+}
+.ventBack3{
+  position: absolute;
+  width: 160px;
+  height: 30px;
+  border-radius: 20px;
+  background: #222629;
+  box-shadow: inset 8px 8px 16px #141618,
+              inset -8px -8px 16px #30363a;
+  right: 10px;
+  top: 120px;
+}
+.ventBack3::before{
+  content: '';
+  position: absolute;
+  width: 160px;
+  height: 15px;
+  border-radius: 10px;
+  background: #222629;
+  box-shadow: inset 5px 5px 10px #141618,
+              inset -5px -5px 10px #30363a;
+  bottom: -430px;
+}
+.ventBack4{
+  position: absolute;
+  width: 160px;
+  height: 30px;
+  border-radius: 20px;
+  background: #222629;
+  box-shadow: inset 8px 8px 16px #141618,
+              inset -8px -8px 16px #30363a;
+  right: 10px;
+  top: 170px;
+}
+.ventBack4::before{
+  content: '';
+  position: absolute;
+  width: 160px;
+  height: 15px;
+  border-radius: 10px;
+  background: #222629;
+  box-shadow: inset 5px 5px 10px #141618,
+              inset -5px -5px 10px #30363a;
+  bottom: -340px;
+}
+/* rgb */
+.vent1{
+  position: absolute;
+  width: 20px;
+  height: 300px;
+  top: 210px;
+  right: 140px;
+  border-radius: 50px;
+  box-shadow:  6px 6px 10px #070808,
+  -6px -6px 10px #4f575e;
+  background: linear-gradient(124deg, #fffc48,#fffc48, #b478ff, #4affe2, #4ab7ff);
+  background-size: 200% 200%;
+-webkit-animation: rainbow 2s ease infinite;
+-z-animation: rainbow 4s ease infinite;
+-o-animation: rainbow 4s ease infinite;
+  animation: rainbow 4s ease infinite;
+}
+.vent1::before{
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 300px;
+  right: -40px;
+  border-radius: 50px;
+  box-shadow:  6px 6px 10px #070808,
+  -6px -6px 10px #4f575e;
+  background: linear-gradient(124deg, #fffc48,#fffc48, #b478ff, #4affe2, #4ab7ff);
+  background-size: 200% 200%;
+-webkit-animation: rainbow 2s ease infinite;
+-z-animation: rainbow 4s ease infinite;
+-o-animation: rainbow 4s ease infinite;
+  animation: rainbow 4s ease infinite;
+}
+.vent1::after{
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 300px;
+  right: -80px;
+  border-radius: 50px;
+  box-shadow:  6px 6px 10px #070808,
+  -6px -6px 10px #4f575e;
+  background: linear-gradient(124deg, #fffc48,#fffc48, #b478ff, #4affe2, #4ab7ff);
+  background-size: 200% 200%;
+-webkit-animation: rainbow 2s ease infinite;
+-z-animation: rainbow 4s ease infinite;
+-o-animation: rainbow 4s ease infinite;
+  animation: rainbow 4s ease infinite;
+}
+.vent1 span{
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 300px;
+  right: -120px;
+  border-radius: 50px;
+  box-shadow:  6px 6px 10px #070808,
+  -6px -6px 10px #4f575e;
+  background: linear-gradient(124deg, #fffc48,#fffc48, #b478ff, #4affe2, #4ab7ff);
+  background-size: 200% 200%;
+-webkit-animation: rainbow 2s ease infinite;
+-z-animation: rainbow 4s ease infinite;
+-o-animation: rainbow 4s ease infinite;
+  animation: rainbow 4s ease infinite;
+}
+
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
 }
